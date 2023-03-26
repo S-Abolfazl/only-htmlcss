@@ -123,3 +123,103 @@ body {
     margin: 16px 7px 0 9px;
     float: left;
 }
+
+.menu-bar ul {
+    list-style: none;
+}
+
+.menu-bar li {
+    display: inline;
+    margin: 0 7px;
+    transition: 0.01s;
+}
+
+.menu-bar li:hover {
+    border-bottom: 2.3px solid #ee384e;
+}
+
+.menu-bar li div {
+    display: inline;
+}
+
+.menu-bar li a {
+    text-decoration: none;
+    color: #5a5c7a;
+}
+
+.menu-bar ul {
+    margin: 0 7px;
+    padding: 3px;
+}
+
+.goods {
+    margin: 0px 27px 0px 0px;
+    width: 22%;
+    direction: ltr;
+    height: 455px;
+    padding: 9px;
+    box-shadow: 0px -4px 12px #CFD8DC;
+    border: none;
+    overflow: auto;
+    display: none;
+}
+
+.goods li {
+    float: right;
+    padding: 5px;
+    margin-right: 9px;
+    line-height: 60px;
+    display: inline;
+}
+
+.goods li:hover {
+    background-color: #e4d3d3;
+    border: none;
+    border-radius: 5px;
+}
+
+.goods li:hover a {
+    color: #ee384e;
+}
+
+.goods div {
+    display: inline;
+}
+
+.goods a {
+    text-decoration: none;
+    color: #5a5c7a;
+}
+
+.goods ul {
+    list-style: none;
+    margin: 5px 5px;
+    padding: 0;
+}
+
+.main:hover {
+    cursor: pointer;
+}
+
+.main:hover .goods {
+    display: block;
+}
+
+.container1 {
+    width: 100%;
+    margin: 10px -13px;
+    height: 130px;
+    text-align: center;
+}
+
+.container1 div {
+    width: 100px;
+    height: 100px;
+    margin: 14px 50px 0 0;
+    display: inline-block;
+}
+
+.container1 a {
+    text-decoration: none;
+    color: black;
+}
