@@ -493,3 +493,55 @@ body {
     height: 62%;
     margin: 15px 6px;
 }
+
+.row5 .n1 {
+    width: 70%;
+    display: inline-block;
+    padding: 3px 16px;
+}
+
+.row5 .n1 span {
+    color: #838697;
+}
+
+.row5 .n1 details a {
+    text-decoration: none;
+    color: #19bfd3;
+}
+
+.row5 .n2 {
+    margin: 4px 0;
+    display: flex;
+}
+
+.row5 .n2 a {
+    width: 127px;
+    height: 127px;
+    text-align: center;
+    border: 1px solid #e0e0e6;
+    border-radius: 12px;
+    margin: 0 6px;
+}
+
+.row5 .n2 a img {
+    width: 70%;
+    margin-top: 15px;
+    height: 70%;
+}
+
+.row6 {
+    background-color: #f1f2f4;
+    width: 100%;
+    display: inline-flex;
+    height: 150px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.row6 .items {
+    height: 49.9%;
+    padding: 0 32px;
+    border-left: 1px solid #e0e0e6;
+    border-bottom: 1px solid #e0e0e6;
+}
