@@ -4,12 +4,12 @@ body {
 }
 
 * {
-    font-family: "b nazanin";
+    font-family: "Sahel";
 }
 
 @font-face {
-    font-family: "b nazanin";
-    src: url("F:/My html-css project/YekanBoom.ttf");
+    font-family: "Sahel";
+    src: url("F:\My html-css project\Sahel.ttf");
 }
 
 .signin {
